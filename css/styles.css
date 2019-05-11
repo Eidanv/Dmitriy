@@ -3,10 +3,21 @@ margin: 0%;
 padding: 0%;
 }
 
-header{
-background: url(/img/Header_Background.png) no-repeat center top /cover;
-height: 1000px;
+body{
+    padding: 0;
+    margin: 0;
+}
 
+header{
+background: url(/img/test3.png) no-repeat center top /cover;
+height: 100vh; /* расстягивает картинку во всю высоту экрана пользователя*/
+
+
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
 }
 
 .clearfix:after{
@@ -20,7 +31,8 @@ height: 1000px;
     width: 100%;
     margin: 0% auto;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.7;   /*ПРОЗРАЧНОСТЬ */
+    
 }
 
 nav{
@@ -40,7 +52,7 @@ nav{
 .menu li {
     float: right;
     display: block;
-    margin-right: 68px;
+    margin-right: 50px;
     
 }
 .menu a {
@@ -58,27 +70,47 @@ font-size: 20px;
     height: 100%;
 }
 
-.title h1{
-    font-size: 80px;
+h1 span{
+
     color: white;
-    padding-top: 150px;
+}
+
+h1{
+    font-size: 80px;
+    color: black;
+    padding-top: 17%;
     text-align: center;
 }
 
 .title p{
     color: white;
-    font-size: 20px;
-    padding-top: 50px;
+    font-style: italic;
+    font-size: 25px;
     text-align: center;
 }
 
 
-#s1 img{
+.title :nth-child(2){
+    margin-top: 1%;
+}
+.title :nth-child(3){
+    margin-top: 5px;
+}
+
+
+
+#header img{
     padding-left: 193px;
     padding-top: 10px;
 }
 
 #About{
-    background-color: #b7b1b1;
-    
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+#About h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
 }
